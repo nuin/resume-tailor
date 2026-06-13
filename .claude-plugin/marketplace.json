@@ -1,0 +1,22 @@
+{
+  "name": "resume-tailor",
+  "owner": {
+    "name": "Paulo Nuin",
+    "url": "https://github.com/nuin"
+  },
+  "metadata": {
+    "description": "Tailor ATS-ready resumes and cover letters to a job posting, grounded in a master profile and verified by a second-model review.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "resume-tailor",
+      "description": "Turns a job posting into a tailored, ATS-ready resume + cover letter (PDF and plain-text), grounded in a MASTER-PROFILE.md fact sheet and verified by a read-only codex review. Anti-fabrication gate asks before claiming anything not in the profile. Supports standard tech ATS and government/competency-based formats.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/resume-tailor"
+      ]
+    }
+  ]
+}

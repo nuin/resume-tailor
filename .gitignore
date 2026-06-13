@@ -1,0 +1,9 @@
+# LaTeX build artifacts (in case anyone builds inside the repo)
+*.aux
+*.log
+*.out
+*.synctex.gz
+.DS_Store
+
+# A user's filled-in profile must never be committed to this repo
+MASTER-PROFILE.md
