@@ -71,7 +71,7 @@ resume-tailor/
     ├── SKILL.md
     ├── references/
     │   ├── format-standard-ats.md       # private-sector tech ATS conventions
-    │   └── format-goa-competency.md     # government / competency-based format
+    │   └── format-gov-competency.md     # government / competency-based format
     └── assets/
         └── MASTER-PROFILE-TEMPLATE.md   # fill-in fact sheet (fake example)
 ```

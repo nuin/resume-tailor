@@ -55,7 +55,7 @@ Cross every JD requirement against `MASTER-PROFILE.md`:
 ### 4. Choose format and build
 Read the right format reference before building:
 - Standard tech / private-sector ATS → `references/format-standard-ats.md`
-- Government / public-sector / competency-based → `references/format-goa-competency.md`
+- Government / public-sector / competency-based → `references/format-gov-competency.md`
 
 Then build (copy the closest existing `*-resume-*.tex` variant if one exists,
 else start from the template). Conventions that always apply:
@@ -103,7 +103,7 @@ hyphenated company slug (e.g. "Felix" → `felix`). When one employer has
 several reqs, append a short role/req tag (`-cloud`, `-req83894`).
 - `<name>-resume-<company>.tex` → PDF + `.txt`
 - `<name>-coverletter-<company>.tex` → PDF
-- **STAR competency stories** (`<name>-<company>-STAR`) — generate *on request* (or proactively for competency-based government roles); interview prep, not submitted. See `references/format-goa-competency.md`.
+- **STAR competency stories** (`<name>-<company>-STAR`) — generate *on request* (or proactively for competency-based government roles); interview prep, not submitted. See `references/format-gov-competency.md`.
 
 Put the company + role in the resume footer (center slot of `\makecvfooter`),
 e.g. `<Name> ~·~ <Company> — <Role>`, so a printed copy is self-identifying.
